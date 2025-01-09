@@ -1,6 +1,6 @@
 import { useAnimation } from '@/hooks/useAnimation'
 import { useState } from 'react'
-import { View, ActivityIndicator, StyleProp, Image, ImageStyle, Animated } from 'react-native'
+import { View, ActivityIndicator, StyleProp, ImageStyle, Animated } from 'react-native'
 
 interface Props {
   uri: string

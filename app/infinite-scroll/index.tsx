@@ -1,9 +1,8 @@
 import { useThemeColor } from '@/hooks/useThemeColor';
 import FadeInImage from '@/presentation/images/FadeInImage';
-import ThemedText from '@/presentation/shared/ThemedText';
 import ThemedView from '@/presentation/shared/ThemedView';
 import { useState } from 'react';
-import { Image, FlatList, View, ActivityIndicator } from 'react-native';
+import { FlatList, View, ActivityIndicator } from 'react-native';
 
 const InfiniteScrollScreen = () => {
 
